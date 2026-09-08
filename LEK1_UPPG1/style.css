@@ -1,0 +1,15 @@
+h1 {
+    border:2x solid blue;
+    color:greenyellow;
+    font-famlily: 'Courier New', Courier;
+}
+
+body{
+    background-color: black;
+}
+
+p {
+    background-color:black;
+    color:greenyellow;
+    font-family: 'Courier New', Arial;
+}
