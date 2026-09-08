@@ -1,0 +1,27 @@
+body {
+    background-color:blue;
+    background-image: url(./IMG/HTML.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    }
+#kap3{
+    background-color: aquamarine;
+}
+    ul{
+        
+    }
+
+    a{
+        
+    }
+
+    img {
+        height: 50;
+        width: 50;
+    }
+
+    #Kap2{
+        color: red;
+    }
