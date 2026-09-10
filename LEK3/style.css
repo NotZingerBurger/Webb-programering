@@ -9,19 +9,22 @@ body {
 #kap3{
     background-color: aquamarine;
 }
-    ul{
-        
-    }
-
-    a{
-        
-    }
-
     img {
         height: 50;
         width: 50;
     }
 
-    #Kap2{
-        color: red;
-    }
+#kap1 {
+    background-color: blueviolet;
+    color: rgb(41, 131, 33);
+}
+
+#kap2 {
+    background-color: brown;
+    color: red;
+}
+
+#kap3 {
+    background-color: chartreuse;
+    color: rgb(12, 85, 85);
+}
