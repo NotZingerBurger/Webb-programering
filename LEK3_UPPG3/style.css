@@ -1,0 +1,40 @@
+body {
+    background-color:blue;
+    background-image: url(./IMG/ek.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    }
+
+h1{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#kap3{
+    background-color: aquamarine;
+}
+    img {
+        height: 50;
+        width: 50;
+    }
+
+#kap1 {
+    background-color: blueviolet;
+    color: turquoise;
+}
+
+#kap2 {
+    background-color: blueviolet;
+    color: turquoise;
+}
+
+#kap3 {
+    background-color: blueviolet;
+    color: turquoise;
+}
+
+p{
+    background-color: white;
+}
