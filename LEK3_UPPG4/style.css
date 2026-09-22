@@ -1,0 +1,62 @@
+body {
+    background-color:blue;
+    background-image: url(./IMG/ek.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    }
+
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    border: 2px solid black;
+    padding-bottom: 100;
+    padding-left: 50;
+    padding-right: 70;
+    padding-top: 150;
+    margin-bottom: 200;
+    font-size: 3 rem;
+}
+
+#kap3{
+    background-color: aquamarine;
+    font-size: 2,5rem;
+}
+    img {
+        height: 50;
+        width: 50;
+    }
+
+#kap1 {
+    background-color: blueviolet;
+    color: turquoise;
+    font-size: 2,5rem;
+}
+
+#kap2 {
+    background-color: blueviolet;
+    color: turquoise;
+    font-size: 2,5rem;
+}
+
+#kap3 {
+    background-color: blueviolet;
+    color: turquoise;
+    font-size: 2,5rem;
+}
+
+p{
+    background-color: white;
+}
+
+.rubrik_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+}
+
+#HTML {
+    width: auto;
+    height: 100;
+}
