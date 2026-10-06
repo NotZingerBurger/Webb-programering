@@ -1,0 +1,41 @@
+
+
+.sidfot {
+    background-image: url(./IMG/fireworks_small.png) ;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-left: 570px;
+    border: 5px solid black;
+    margin-right: 570px;
+    margin-top: 150px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.B {
+    align-items: start;
+}
+
+.A {
+    align-items: end;
+}
+
+.artikel {
+    text-align: center;
+    margin-left: 750px;
+}
+
+body {
+    background-image: url(./IMG/winter-snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
