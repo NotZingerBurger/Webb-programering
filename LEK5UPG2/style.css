@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    background-image: url(./IMG/snow_winter_trees.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+   border: 2px solid black; 
+}
