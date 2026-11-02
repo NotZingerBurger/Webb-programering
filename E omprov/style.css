@@ -1,0 +1,55 @@
+body {
+background-color: #ebbdac;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 500px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    padding-left: 300px;
+}
+
+#bild1 {
+    width: 150px;
+    height: auto;
+}
+
+#yxa1 {
+    width: 600px;
+    height: auto;
+}
+
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+
+article {
+ display: flex;
+ justify-content: flex-end;
+}
+
+div {
+justify-content: flex-end;
+}
+
+footer {
+    border: 2px solid black;
+    text-align: center;
+    color: blue;
+}

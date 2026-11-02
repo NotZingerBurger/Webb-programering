@@ -1,0 +1,50 @@
+body {
+ background-color: #add8e6 ;
+
+}
+
+header {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 25px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#fotbollbild {
+    width: 160px;
+    height: auto;
+}
+
+img {
+    width: auto;
+    height: 300px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+article {
+    align-items: center;
+    text-align: center;
+}
+
+
+nav {
+display: flex;
+justify-content: center;
+gap: 30px;
+font-size: 20px;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
