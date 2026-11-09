@@ -1,76 +1,48 @@
 body {
-    display:grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 15vh 10vh 60vh 15vh;
-    align-items: stretch;
-    justify-items: center;
-    background-image: linear-gradient(rgb(170, 29, 29),rgb(73, 6, 6));
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-    border: 2px solid black;
-}
-
-nav {
-    grid-column: 1/2;
-    grid-row: 3/5;
-    justify-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-}
-
-nav a {
-    color:blue;
-    font-weight: 700;
-}
-
-aside {
-    grid-column: 1/4;
-    justify-self: stretch;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border: 2px sold black;
-}
-
-main {
-    grid-column: 2/4;
-    grid-row: 3/4;
-    border: 2px solid black;
-    text-align: center;
-}
-
-footer {
-    grid-row: 4/5;
-    grid-column: 2/4;
-    justify-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border: solid black;
-}
-
-
-article h2 {
-    text-align: center;
-}
-
-img {
-    margin-top: 2px;
+    background-color: #ebbdac;
 }
 
 h1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 350px;
-    margin-top: 10  0px;
+    font-size: 50px;
 }
 
-ul 
-{
-  padding-right: 10px;
+#bild1 {
+    width: 200px;
+    height: auto;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 500px;
+}
+
+nav {
+display: flex;
+justify-content: space-evenly;
+border: 2px solid black;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+footer {
+    text-align: center;
+    border: 2px solid black;
 }
