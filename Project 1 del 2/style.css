@@ -13,12 +13,15 @@ header h1 {
 
     font-size: 28px;
     font-family: "Inter", sans-serif;
-    font-weight: 300 ;
+    font-weight: 300;
     color: #FFFFFF;
 }
 
 main {
-
+display: grid;
+grid-template-columns: 1.2fr 2.1fr;
+gap: 25px;
+padding: 30px 32px;
 }
 
 #bild1 {
@@ -26,4 +29,25 @@ main {
     height: 345px;
     border-radius: 3px;
 }
+
+nav {
+    background-color:#EBE6DF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:10px 20px;
+    margin-top: 8px;
+    gap: 65px;
+    border-radius: 3px;
+}
+
+nav a {
+    color: #555555;
+}
+
+nav p {
+    margin: 0;
+}
+
+
 
