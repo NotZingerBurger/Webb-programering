@@ -1,0 +1,29 @@
+body {
+    background-color: #F9F8F6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+padding: 35px 40px;
+background-color: #2C2C2C;
+}
+
+header h1 {
+
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300 ;
+    color: #FFFFFF;
+}
+
+main {
+
+}
+
+#bild1 {
+    width: 465px;
+    height: 345px;
+    border-radius: 3px;
+}
+
