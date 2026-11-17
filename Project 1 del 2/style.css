@@ -49,5 +49,13 @@ nav p {
     margin: 0;
 }
 
+footer {
+    background-color: #2C2C2C;
+    color: #F9F8F6;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
 
 
