@@ -119,13 +119,23 @@ article{
     font-size: 14px;
     font-weight: 400;
     padding: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 600px;
     border: 1px solid black;
 }
 
 h3 {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
-    text-align: center;
+    padding-left: 40px;
+}
+
+.fyllning {
+    font-family: "Roboto", sans-serif;
+    color: #5B6E58;
+    font-size: 15px;
+    padding-left: 40px;
 }
 
 footer {
