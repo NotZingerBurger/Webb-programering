@@ -14,10 +14,6 @@
     font-variation-settings: "wdth" 100;
 }
 
-
-
-
-
 body {
     background-color: #F9F8F6;
     margin: 0;
@@ -31,21 +27,22 @@ background-color: #2C2C2C;
 
 header h1 {
 
-    font-size: 28px;
+    font-size: 35px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: #FFFFFF;
 }
 
 main {
-display: grid;
-grid-template-columns: 1.2fr 4fr;
-/* TEST GRID: border: 2px solid black; */
-padding: 30px 50px;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    /* TEST GRID: border: 2px solid black; */
+    gap: 35px;
+    padding: 30px 30px;
 }
 
 #bild1 {
-    width:700px;
+    width:100%;
     height: auto;
     border-radius: 3px;
 }
@@ -64,6 +61,7 @@ nav {
 
 nav a {
     color: #555555;
+    font-size: 18px;
 }
 
 nav p {
@@ -72,26 +70,26 @@ nav p {
 
 section {
     font-family: "Inter", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     border-radius: 3px;
     background-color: #F5F5F5;
     color: #333333;
     border: 1px solid #E5E3DF;
     margin-top: 15px;
-    padding: 50px;
+    padding: 60px;
 }
 
 .rubrik2 {
     color: #9E4738;
-    font-size: 22px;
+    font-size: 25px;
     text-align: center;
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
 
 #bild2 {
-    width:700px;
+    width:100%;
     height:700px;
     margin-top: 15px;
     border-radius: 3px;
@@ -101,29 +99,34 @@ aside {
     background-color: #EBE6DF;
     border-radius: 3px;
     border: 1px solid #E5E3DF;
-    padding: 80px;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 600px;
+    padding: 50px;
+    margin-top: 30px;
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #3A3532;
 }
 
 aside p {
-    margin: 5px;
+    margin: 5px 0;
+}
+
+.rad {
+    display: flex;
+    gap: 6px;
+}
+
+.rubrik_fakta {
+    font-weight: bold;
 }
 
 article{
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    padding: 50px;
-    padding-bottom: 200px;
-    padding-top: 50px;
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 600px;
+    padding: 80px;
+    padding-left: 40px;
+    padding-bottom: 400px;
+    margin-top: 25px;
     border: 1px solid black;
 }
 
@@ -131,7 +134,7 @@ article{
 .fyllning {
     font-family: "Roboto", sans-serif;
     color: #5B6E58;
-    font-size: 15px;
+    font-size: 18px;
     padding-left: 40px;
 }
 
@@ -139,7 +142,7 @@ footer {
     background-color: #2C2C2C;
     color: #F9F8F6;
     font-family: "Inter", sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     padding: 30px 35px;
     display: flex;
     justify-content:space-around;
