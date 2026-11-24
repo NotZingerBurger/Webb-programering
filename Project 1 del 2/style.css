@@ -25,7 +25,7 @@ body {
 }
 
 header {
-padding: 30px 35px;
+padding: 30px 50px;
 background-color: #2C2C2C;
 }
 
@@ -92,7 +92,7 @@ section {
 
 #bild2 {
     width:700px;
-    height:400px;
+    height:700px;
     margin-top: 15px;
     border-radius: 3px;
 }
@@ -101,7 +101,7 @@ aside {
     background-color: #EBE6DF;
     border-radius: 3px;
     border: 1px solid #E5E3DF;
-    padding: 70px;
+    padding: 80px;
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 600px;
@@ -118,18 +118,15 @@ article{
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    padding: 20px;
+    padding: 50px;
+    padding-bottom: 200px;
+    padding-top: 50px;
     margin-top: 30px;
     margin-left: 50px;
     margin-right: 600px;
     border: 1px solid black;
 }
 
-h3 {
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    padding-left: 40px;
-}
 
 .fyllning {
     font-family: "Roboto", sans-serif;
@@ -145,7 +142,8 @@ footer {
     font-size: 13px;
     padding: 30px 35px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
+    align-items: center;
     text-align: center;
 }
 
