@@ -11,7 +11,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
+    font-variation-settings: "width" 100;
 }
 
 body {
@@ -27,7 +27,7 @@ background-color: #2C2C2C;
 
 header h1 {
 
-    font-size: 35px;
+    font-size: 40px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: #FFFFFF;
@@ -36,7 +36,7 @@ header h1 {
 main {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
-    /* TEST GRID: border: 2px solid black; */
+    /* TEST GRID: border: 10px solid black; */
     gap: 35px;
     padding: 30px 30px;
 }
@@ -61,7 +61,7 @@ nav {
 
 nav a {
     color: #555555;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 nav p {
@@ -70,19 +70,23 @@ nav p {
 
 section {
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     border-radius: 3px;
     background-color: #F5F5F5;
     color: #333333;
     border: 1px solid #E5E3DF;
     margin-top: 15px;
-    padding: 60px;
+    padding: 100px;
+}
+
+section p {
+    margin-top: 40px;
 }
 
 .rubrik2 {
     color: #9E4738;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -102,12 +106,13 @@ aside {
     padding: 50px;
     margin-top: 30px;
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #3A3532;
 }
 
 aside p {
     margin: 5px 0;
+    color: #333333;
 }
 
 .rad {
@@ -121,21 +126,34 @@ aside p {
 
 article{
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     padding: 80px;
     padding-left: 40px;
     padding-bottom: 400px;
     margin-top: 25px;
+    border-radius: 3px;
+    color: #333333;
     border: 1px solid black;
+}
+
+article li {
+    margin-top: 5px;
+}
+
+.deg {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding-left: 40px; 
 }
 
 
 .fyllning {
     font-family: "Roboto", sans-serif;
     color: #5B6E58;
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 40px;
+    margin-top: 100px;
 }
 
 footer {
