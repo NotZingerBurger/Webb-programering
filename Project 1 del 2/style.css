@@ -27,7 +27,7 @@ background-color: #2C2C2C;
 
 header h1 {
 
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: #FFFFFF;
@@ -70,7 +70,7 @@ nav p {
 
 section {
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     border-radius: 3px;
     background-color: #F5F5F5;
@@ -106,7 +106,7 @@ aside {
     padding: 50px;
     margin-top: 30px;
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #3A3532;
 }
 
@@ -126,7 +126,7 @@ aside p {
 
 article{
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     padding: 80px;
     padding-left: 40px;
@@ -143,7 +143,7 @@ article li {
 
 .deg {
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 40px; 
 }
 
@@ -151,7 +151,7 @@ article li {
 .fyllning {
     font-family: "Roboto", sans-serif;
     color: #5B6E58;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 40px;
     margin-top: 100px;
 }
