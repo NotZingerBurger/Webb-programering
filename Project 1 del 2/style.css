@@ -61,6 +61,7 @@ nav {
 
 nav a {
     color: #555555;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
 }
 
@@ -122,6 +123,7 @@ aside p {
 
 .rubrik_fakta {
     font-weight: bold;
+    font-family: "Inter", sans-serif;
 }
 
 article{
@@ -155,7 +157,7 @@ article a {
 
 .fyllning {
     font-family: "Roboto", sans-serif;
-    color: #5B6E58;
+    color: #678961;
     font-size: 18px;
     padding-left: 40px;
     margin-top: 100px;
